@@ -94,13 +94,9 @@ struct UserDetailView: View {
                         .padding(.horizontal)
                 } else {
                     ForEach(viewModel.repositories) { repo in
-                        RepositoryRowView(repository: repo)
-                            .onTapGesture {
-                                if let url = URL(string: repo.htmlURL) {
-                                    // TODO: Open WebView to show the content of the URL
-                                    print("\(url)")
-                                }
-                            }
+                        NavigationLink(destination: WebView(urlString: repo.htmlURL)) {
+                            RepositoryRowView(repository: repo)
+                        }
                     }
                 }
             }

@@ -5,3 +5,5 @@
 GitHub API service
 
 UserListView + UserDetailView
+
+WebView for repository URL
