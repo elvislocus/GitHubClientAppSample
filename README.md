@@ -1,1 +1,4 @@
 # GitHubClientAppSample
+
+## Architectures
+
