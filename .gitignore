@@ -1,0 +1,44 @@
+# Xcode files
+.DS_Store
+*.xcuserdata
+*.xcuserstate
+*.xccheckout
+*.xcodeproj/*/xcuserdata
+*.xcodeproj/*/project.xcworkspace/xcuserdata
+
+# Build products
+DerivedData/
+build/
+*.app
+*.ipa
+*.dSYM
+*.xcarchive
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+.build/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# SwiftLint
+.swiftlint.yml
+
+# Temporary files
+*.swp
+*.swo
+.DS_Store
+*.orig
+
+# Personal Access Tokens or secrets (if stored in a config file)
+Secrets.xcconfig
